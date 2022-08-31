@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Question</title>
+    <!-- <link rel="stylesheet" href="=css/style.css"> -->
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbox {
+        color: white;
+        background-color: #428fed;
+        width: 15vw;
+        height: 90vh;
+        padding-left: 35px;
+        padding-top: 10px;
+        float: left;
+        font-family: Roboto;
+        line-height: 35px;
+
+    }
+
+
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .container1 {
+        background-color: yellow;
+        height: 10vh;
+    }
+
+    .container2 {
+        /* display: flex;
+        flex-direction: row; */
+        background-color: rgb(225, 225, 225);
+        height: 90vh;
+        /* float: right; */
+        display: grid;
+        grid-template-columns: 800px 100px;
+        gap: 10px;
+
+
+    }
+
+    .container2a {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 200px 200px 200px;
+        padding-top: 35px;
+        padding-left: 35px;
+    }
+
+
+
+
+
+    /* /* .container2a{
+        float: left;
+    } */
+    .container2b {
+        display: grid;
+        padding-top: 35px;
+        padding-left: 35px;
+        grid-template-rows:300px 300px;
+        
+    }
+
+box
+</style>
+
+<body>
+    <header>
+        <div class="container1">
+            <p>This is a header</p>
+
+        </div>
+
+    </header>
+    <div class="navbox">
+        <h3>Dashboard</h3><br>
+        <nav>
+            <ul>
+                <!-- <button class="btn"><i class="fa fa-home"></i></button>
+                <button class="btn"><i class="fa fa-profile"></i></button>
+                <button class="btn"><i class="fa fa-messages"></i></button>
+                <button class="btn"><i class="fa fa-history"></i></button> -->
+
+                <li><a href="home.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="messages.html">Messages</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="task.html">Task</a></li>
+                <li><a href="communities.html">Communities</a></li><br>
+                <li><a href="setting.html">Setting</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div class="container2">
+
+            <div class="container2a">
+
+
+                <div class="box"> 1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+
+            </div>
+
+            <div class="container2b">
+                <div class="box7">box7</div>
+                <div class="box8">box8</div>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
