@@ -3,7 +3,78 @@
     margin: 0;
 }
 
+
+
 .navbox {
     color: white;
-    background-color: cornflowerblue;
+    background-color: #428fed;
+    width: 15vw;
+    height: 90vh;
+    padding-left: 35px;
+    padding-top: 10px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+
 }
+
+
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container1 {
+    background-color: yellow;
+    height: 10vh;
+}
+
+.main-content {
+    /* display: flex;
+    flex-direction: row; */
+    background-color: rgb(225, 225, 225);
+    height: 90vh;
+    /* float: right; */
+    display: grid;
+    grid-template-columns: 800px 100px;
+    gap: 10px;
+
+
+}
+
+/* 
+.container2a {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 200px 200px 200px;
+    padding-top: 35px;
+    padding-left: 35px;
+
+}
+
+
+
+
+
+.container2a {
+    float: left;
+}
+
+.container2b {
+    display: grid;
+    padding-top: 35px;
+    padding-left: 35px;
+    grid-template-rows: 300px 300px;
+
+}
+
+box1 {
+    background-color: white;
+    height: 50px;
+    width: 100px;
+} */
