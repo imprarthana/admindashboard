@@ -3,8 +3,6 @@
     margin: 0;
 }
 
-
-
 .navbox {
     color: white;
     background-color: #428fed;
@@ -15,9 +13,7 @@
     float: left;
     font-family: 'Roboto', sans-serif;
     line-height: 35px;
-
 }
-
 
 
 li {
@@ -43,8 +39,12 @@ a {
     display: grid;
     grid-template-columns: 800px 100px;
     gap: 10px;
+}
 
-
+.box {
+    background-color: rgb(106, 25, 25);
+    height: 50px;
+    width: 100px;
 }
 
 /* 
@@ -56,10 +56,6 @@ a {
     padding-left: 35px;
 
 }
-
-
-
-
 
 .container2a {
     float: left;
