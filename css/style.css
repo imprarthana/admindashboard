@@ -12,6 +12,7 @@ body{
         "nav article article";
       grid-template-columns: 20vw 1fr;
       grid-template-rows: 16vh 1fr;
+      font-family: 'Roboto', sans-serif;
 }
 
 #navbox {
@@ -40,18 +41,22 @@ header {
     box-shadow:0px 3px 29px  #000000;
     /* height: 20vh;
     width: 80wh; */
+    border-bottom: 5px solid  rgba(172, 171, 171, 0.504);
+/* border-color: rgb(226, 226, 226); */
+
 }
 
 #navbox{
     color: white;
     background-color: #428fed;
-   height: 100vh; 
-   width: 20vw;
+   height: 97vh; 
+   width: 16vw;
    
     float: left;
     font-family: 'Roboto', sans-serif;
     line-height: 35px;
     /* padding-left: 35px; */
+    padding: 3vh 2vw 0vh 2vw;
     
 
 }
@@ -61,59 +66,113 @@ header {
     display: grid;
     grid-template-areas:".grid1 .grid2" ;
     grid-template-columns: 2.5fr 1fr;
-    grid: template rows 86vh;
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
-    /* padding: 70px 35px; */
-    grid-gap: 5px;
+    padding: 30px 30px 35px 35px;
+    grid-gap: 20px;
     box-shadow: 0 3px 5px #000000;
+    /* height:84vh;
+    width: 80vw; */
+/* height: calc(100%-60px); */
 } 
-/* #MyProjects{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
 
-    margin: 50px 20px;
-    row-gap: 20px;
-    column-gap: 40px;
-     */
 
 #grid1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr;
-    grid-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 1fr;
+    /* grid-gap: 30px; */
     background-color:rgb(225, 230, 238);
     /* justify-content:end; */
     align-content: center;
 } 
-#grid1 >div {
+
+#grid1b{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+}
+#grid1b >div {
     background-color: white;
     color: black;
     border-radius: 8px;
     border-left: 8px solid #ffb005f6;
     box-sizing: 100%;
     box-shadow: 0 3px 5px rgb(171, 180, 187);
+    padding: 15px 25px 17px 15px;
 }
+
+#grid1b .bold{
+    font-size: medium;
+    font-weight: bold;
+}
+#grid1b .text{
+font-size: small;
+color: rgb(82, 80, 80);
+}
+
 
 #grid2{
     display: grid;
+    grid-template-areas:
+     "grid2a"
+    "grid2b";
     grid-template-rows: 1fr 1fr;
     grid-gap: 40px;
     
     background-color:rgb(225, 230, 238);
     padding-left: 30px;
 }
-#grid2 >div{
-    background-color: white;
-    color: black;
-    border-radius: 8px;
-    box-shadow: 0 3px 7px rgb(171, 180, 187);
+
+ 
+#grid2a{
+    display: grid;
+    grid-template-rows:20px 1fr  ;
+   
 }
-/* div{
+
+#grid2a .box2{
     background-color: white;
-    color: black;
-    height: 80%;
-} */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgb(171, 180, 187);
+}
+#grid2b {
+    display:grid ;
+    grid-template-rows: 20px 1fr;
+}
+
+#grid2b .box2{ background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgb(171, 180, 187);
+}
+#boxB {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+     padding: 2px 11px 2px 11px;
+     border-radius: 8px;
+     grid-gap: 10px;
+} 
+#boxB .bold { font-size: smaller;
+    font-weight: bold;
+}
+#boxB .text{font-size: x-small;
+
+color: rgb(82, 80, 80);
+}
+#box {
+    /* box-shadow: 0 3px 5px rgb(171, 180, 187); */
+    border-bottom: 4px inset;
+}
+.trendingContent{
+    display: grid;
+    grid: template rows 1fr 1fr 1fr 1fr;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2px 11px 2px 11px;
+}
