@@ -15,56 +15,77 @@
   </head>
 
   <body>
-    <header>
-      <div class="container1">
-        <p>This is a header</p>
-      </div>
-    </header>
-
-    <div class="navbox">
-      <h3>Dashboard</h3>
+    <nav id="navbox">
+      <h3>
+        <i class="material-icons mysize">dashboard</i>
+        Dashboard
+      </h3>
       <br />
-      <nav>
-        <ul>
-          <!-- <button class="btn"><i class="fas fa-home">Home</i></button>
+      <ul>
+        <!-- <button class="btn"><i class="fas fa-home">Home</i></button>
                 <button class="btn"><i class="fa fa-profile">Profile</i></button>
                 <button class="btn"><i class="fa fa-messages">Messages</i></button>
                 <button class="btn"><i class="fa fa-history">History</i></button> -->
+        <li>
+          <i class="material-icons mysize">home</i>
+          <a href="home.html">Home</a>
+        </li>
+        <li>
+          <i class="material-icons">accessibility</i>
 
-          <li><a href="home.html">Home</a></li>
-          <li>
-            <i class="material-icons mysize">accessibility</i>
-            <a href="profile.html">Profile</a>
-          </li>
-          <li><a href="messages.html">Messages</a></li>
-          <li><a href="history.html">History</a></li>
-          <li><a href="task.html">Task</a></li>
-          <li><a href="communities.html">Communities</a></li>
-          <br />
-          <li><a href="setting.html">Setting</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-        </ul>
-      </nav>
-    </div>
-    <main>
-      <div class="main-content">
-        <div class="projects">
-          <div class="box">1</div>
-          <div class="box">2</div>
-          <div class="box">3</div>
-          <div class="box">4</div>
-          <div class="box">5</div>
-          <div class="box">6</div>
-        </div>
-        <div class="announcement">
-          <div class="box7">box7</div>
-        </div>
+          <a href="profile.html">Profile</a>
+        </li>
+        <li>
+          <i class="material-icons mysize">message</i>
+          <a href="messages.html">Messages</a>
+        </li>
+        <li>
+          <i class="material-icons mysize">history</i>
+          <a href="history.html">History</a>
+        </li>
+        <li>
+          <i class="material-icons mysize">task</i>
+          <a href="task.html">Task</a>
+        </li>
+        <li>
+          <i class="material-icons mysize">group</i>
+          <a href="communities.html">Communities</a>
+        </li>
+        <br />
+        <li>
+          <i class="material-icons mysize">settings</i>
+          <a href="setting.html">Setting</a>
+        </li>
+        <li>
+          <i class="material-icons mysize">support</i>
+          <a href="support.html">Support</a>
+        </li>
+        <li>
+          <i class="material-icons mysize">lock</i>
+          <a href="privacy.html">Privacy</a>
+        </li>
+      </ul>
+    </nav>
 
-        <div class="trending">
-          <div class="box8">box8</div>
-        </div>
+    <header id="pageHeader">
+      <i class="material-icons mysize">bell</i>
+    </header>
+
+    <article id="mainArticle">
+      <div id="MyProjects">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
       </div>
-    </main>
+      <div id="Announcements">
+        <div>Announcement</div>
+      </div>
+      <div id="Trending">
+        <div>Trending</div>
+      </div>
+    </article>
   </body>
 </html>
