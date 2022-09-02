@@ -6,7 +6,7 @@
 body{
     display: grid;
     grid-template-columns: 20vw 1fr;
-    grid-template-rows: 15vh 1fr;
+    grid-template-rows: 150px 1fr;
 }
 
 li {
@@ -45,6 +45,10 @@ a {
     grid-template-columns:40px 40px 1fr ;
     padding-top: 10px;
     padding-left: 50px;
+}
+
+.headings{
+    font-weight: bold;
 }
 
 .mysize{
@@ -127,6 +131,7 @@ a {
 } 
 
 #grid1b{
+    padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -134,7 +139,7 @@ a {
     color: black;
 }
 
-#grid1b >div {
+#grid1b > div {
     background-color: white;
     border-radius: 8px;
     border-left: 8px solid #ffb005f6;
