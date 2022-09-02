@@ -57,10 +57,10 @@ header {
     line-height: 35px;
     /* padding-left: 35px; */
     padding: 3vh 2vw 0vh 2vw;
-     /* grid-row-start: 1;
-    grid-row-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 3;
     grid-column-start: 1;
-    grid-column-end: 3; */
+    grid-column-end: 3; 
 } 
     
 
@@ -176,7 +176,7 @@ color: rgb(82, 80, 80);
 }
 .trendingContent{
     display: grid;
-    grid: template rows 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
     background-color: white;
     border-radius: 8px;
     padding: 2px 11px 2px 11px;
