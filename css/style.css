@@ -20,7 +20,7 @@ a {
 
 #pageHeader {
     display: grid;
-    grid-template-columns: 1.7fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
     grid-gap: 1px;
     background-color:white;
@@ -34,20 +34,18 @@ a {
     grid-template-columns: 35px 1fr;
 }
 
-.searchicon{
-    margin: 13px 13px 0px 0px;
-}
 .searchbox{
     background-color: rgb(225, 230, 238);
     border-radius: 20px;
     margin: 13px 30px 13px 0px;
+    height: 30px;
 }
 
 #pageHeader .div2{
     display: grid;
     grid-template-columns:40px 40px 1fr ;
     padding-top: 10px;
-    padding-left: 66px;
+    padding-left: 50px;
 }
 
 #pageHeader .bell-icon{
@@ -61,33 +59,43 @@ a {
 
 #pageHeader .text{
     display: grid;
+    font-weight: bold;
     grid-template-rows: 1fr 1fr;
 }
 
-.text >.div1{
+.greeting{
     font-size: xx-small;
     font-weight: bolder;
+    white-space: pre
 }
 
 .text >.div2{
     font-size: medium;
     font-weight: bolder;
-} */
+} 
 
-#pageHeader .div4{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-    padding: 10px 50px 15px 0px;
-    color: white;
-    text-align: center;
+.logotext{
+    float:left;
+    font-weight: bold;
 }
 
-.div4 >div{
+.actionButtons{
+    text-align: center; 
+    color: white;
     background-color: #3d8def;
     border-radius: 20px;
     padding-top: 6px;
+    width: 100px;
+    height: 40px;
 }
+
+/* .div4 >button{
+    background-color: #3d8def;
+    border-radius: 20px;
+    padding-top: 6px;
+    width: 100px;
+    height: 40px;
+} */
 
 #navbox{
     color: white;
