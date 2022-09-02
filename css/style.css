@@ -16,11 +16,11 @@ body{
 }
 
 #navbox {
-    grid-row-start: 1;
+     grid-row-start: 1; 
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
-}
+} 
 #pageHeader {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -49,17 +49,22 @@ header {
 #navbox{
     color: white;
     background-color: #428fed;
-   height: 97vh; 
+   /* height: 97vh; 
    width: 16vw;
-   
+    */
     float: left;
     font-family: 'Roboto', sans-serif;
     line-height: 35px;
     /* padding-left: 35px; */
     padding: 3vh 2vw 0vh 2vw;
+     /* grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3; */
+} 
     
 
-}
+
  #mainArticle {
    
     background-color:rgb(225, 230, 238);
