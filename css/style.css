@@ -20,7 +20,7 @@ a {
 
 #pageHeader {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.7fr 1fr;
     grid-template-rows: 1fr 2fr;
     grid-gap: 1px;
     background-color:white;
@@ -46,9 +46,8 @@ a {
 #pageHeader .div2{
     display: grid;
     grid-template-columns:40px 40px 1fr ;
-    /* margin: 13px 0px 13px 50px; */
     padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 66px;
 }
 
 #pageHeader .bell-icon{
@@ -60,9 +59,34 @@ a {
     grid-template-columns: 60px 1fr; 
 }
 
+#pageHeader .text{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.text >.div1{
+    font-size: xx-small;
+    font-weight: bolder;
+}
+
+.text >.div2{
+    font-size: medium;
+    font-weight: bolder;
+} */
+
 #pageHeader .div4{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 10px 50px 15px 0px;
+    color: white;
+    text-align: center;
+}
+
+.div4 >div{
+    background-color: #3d8def;
+    border-radius: 20px;
+    padding-top: 6px;
 }
 
 #navbox{
