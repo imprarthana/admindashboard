@@ -6,7 +6,7 @@
 body{
     display: grid;
     grid-template-columns: 20vw 1fr;
-    grid-template-rows: 15vh 1fr;
+    grid-template-rows: 150px 1fr;
 }
 
 li {
@@ -45,6 +45,10 @@ a {
     grid-template-columns:40px 40px 1fr ;
     padding-top: 10px;
     padding-left: 50px;
+}
+
+.headings{
+    font-weight: bold;
 }
 
 .mysize{
@@ -181,9 +185,6 @@ color: rgb(82, 80, 80);
     color: rgb(82, 80, 80);
 }
 
-#box {
-    /* padding: 2px 11px 2px 11px; */
-}
 .trendingContent{
     display: grid;
     grid-template-rows:  1fr 1fr 1fr 1fr;
